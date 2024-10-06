@@ -33,6 +33,7 @@ def generate_fake_data():
         "current_province": fake.city(),
         "current_district": fake.street_name(),
         "current_ward": fake.street_address(),
+        "type_personnel": True,
         "families": [
             {
                 "relationship": "Bố",
